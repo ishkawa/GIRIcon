@@ -24,13 +24,13 @@
 {
     CGPoint center = CGPointMake(self.center.x, self.center.y + 96.f);
     CGFloat interval = 75.f;
-    CGFloat arcRadius = 250.f;
+    CGFloat radius = 250.f;
     
     UIBezierPath *path = [[UIBezierPath alloc] init];
     
-    while (arcRadius > interval) {
-        [self addArcToPath:path center:center radius:arcRadius];
-        arcRadius -= interval;
+    while (radius > interval) {
+        [self addArcToPath:path center:center radius:radius];
+        radius -= interval;
     }
     
     return path;
@@ -42,6 +42,7 @@
 {
     CGFloat startAngle = -M_PI_2 - M_PI_2 * 0.425f;
     CGFloat endAngle   = -M_PI_2 + M_PI_2 * 0.425f;
+    
     [path moveToPoint:CGPointMake(center.x + radius * cosf(startAngle), center.y + radius * sinf(startAngle))];
     [path addArcWithCenter:center
                     radius:radius
