@@ -14,22 +14,10 @@
 		7FBE774718F6D20900A84455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBE774618F6D20900A84455 /* main.m */; };
 		7FBE774B18F6D20900A84455 /* ISHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBE774A18F6D20900A84455 /* ISHAppDelegate.m */; };
 		7FBE774D18F6D20900A84455 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FBE774C18F6D20900A84455 /* Images.xcassets */; };
-		7FBE775418F6D20900A84455 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FBE775318F6D20900A84455 /* XCTest.framework */; };
-		7FBE775518F6D20900A84455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FBE773A18F6D20900A84455 /* Foundation.framework */; };
-		7FBE775618F6D20900A84455 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FBE773E18F6D20900A84455 /* UIKit.framework */; };
-		7FBE775E18F6D20900A84455 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FBE775C18F6D20900A84455 /* InfoPlist.strings */; };
-		7FBE776018F6D20900A84455 /* GIRIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBE775F18F6D20900A84455 /* GIRIconTests.m */; };
+		7FBE776B18F6D22100A84455 /* ISHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBE776A18F6D22100A84455 /* ISHView.m */; };
+		7FBE776E18F6D8D400A84455 /* ISHArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBE776D18F6D8D400A84455 /* ISHArcView.m */; };
+		7FFAA74818F6DAA300ED462F /* ISHPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFAA74718F6DAA300ED462F /* ISHPinView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7FBE775718F6D20900A84455 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7FBE772F18F6D20900A84455 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7FBE773618F6D20900A84455;
-			remoteInfo = GIRIcon;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7FBE773718F6D20900A84455 /* GIRIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIRIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,11 +31,13 @@
 		7FBE774918F6D20900A84455 /* ISHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISHAppDelegate.h; sourceTree = "<group>"; };
 		7FBE774A18F6D20900A84455 /* ISHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISHAppDelegate.m; sourceTree = "<group>"; };
 		7FBE774C18F6D20900A84455 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7FBE775218F6D20900A84455 /* GIRIconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIRIconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBE775318F6D20900A84455 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		7FBE775B18F6D20900A84455 /* GIRIconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIRIconTests-Info.plist"; sourceTree = "<group>"; };
-		7FBE775D18F6D20900A84455 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7FBE775F18F6D20900A84455 /* GIRIconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIRIconTests.m; sourceTree = "<group>"; };
+		7FBE776918F6D22100A84455 /* ISHView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISHView.h; sourceTree = "<group>"; };
+		7FBE776A18F6D22100A84455 /* ISHView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISHView.m; sourceTree = "<group>"; };
+		7FBE776C18F6D8D400A84455 /* ISHArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISHArcView.h; sourceTree = "<group>"; };
+		7FBE776D18F6D8D400A84455 /* ISHArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISHArcView.m; sourceTree = "<group>"; };
+		7FFAA74618F6DAA300ED462F /* ISHPinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISHPinView.h; sourceTree = "<group>"; };
+		7FFAA74718F6DAA300ED462F /* ISHPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISHPinView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +51,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FBE774F18F6D20900A84455 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FBE775418F6D20900A84455 /* XCTest.framework in Frameworks */,
-				7FBE775618F6D20900A84455 /* UIKit.framework in Frameworks */,
-				7FBE775518F6D20900A84455 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				7FBE774018F6D20900A84455 /* GIRIcon */,
-				7FBE775918F6D20900A84455 /* GIRIconTests */,
 				7FBE773918F6D20900A84455 /* Frameworks */,
 				7FBE773818F6D20900A84455 /* Products */,
 			);
@@ -88,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				7FBE773718F6D20900A84455 /* GIRIcon.app */,
-				7FBE775218F6D20900A84455 /* GIRIconTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +87,12 @@
 			children = (
 				7FBE774918F6D20900A84455 /* ISHAppDelegate.h */,
 				7FBE774A18F6D20900A84455 /* ISHAppDelegate.m */,
+				7FBE776918F6D22100A84455 /* ISHView.h */,
+				7FBE776A18F6D22100A84455 /* ISHView.m */,
+				7FBE776C18F6D8D400A84455 /* ISHArcView.h */,
+				7FBE776D18F6D8D400A84455 /* ISHArcView.m */,
+				7FFAA74618F6DAA300ED462F /* ISHPinView.h */,
+				7FFAA74718F6DAA300ED462F /* ISHPinView.m */,
 				7FBE774C18F6D20900A84455 /* Images.xcassets */,
 				7FBE774118F6D20900A84455 /* Supporting Files */,
 			);
@@ -122,24 +106,6 @@
 				7FBE774318F6D20900A84455 /* InfoPlist.strings */,
 				7FBE774618F6D20900A84455 /* main.m */,
 				7FBE774818F6D20900A84455 /* GIRIcon-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7FBE775918F6D20900A84455 /* GIRIconTests */ = {
-			isa = PBXGroup;
-			children = (
-				7FBE775F18F6D20900A84455 /* GIRIconTests.m */,
-				7FBE775A18F6D20900A84455 /* Supporting Files */,
-			);
-			path = GIRIconTests;
-			sourceTree = "<group>";
-		};
-		7FBE775A18F6D20900A84455 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7FBE775B18F6D20900A84455 /* GIRIconTests-Info.plist */,
-				7FBE775C18F6D20900A84455 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,24 +130,6 @@
 			productReference = 7FBE773718F6D20900A84455 /* GIRIcon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7FBE775118F6D20900A84455 /* GIRIconTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7FBE776618F6D20900A84455 /* Build configuration list for PBXNativeTarget "GIRIconTests" */;
-			buildPhases = (
-				7FBE774E18F6D20900A84455 /* Sources */,
-				7FBE774F18F6D20900A84455 /* Frameworks */,
-				7FBE775018F6D20900A84455 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7FBE775818F6D20900A84455 /* PBXTargetDependency */,
-			);
-			name = GIRIconTests;
-			productName = GIRIconTests;
-			productReference = 7FBE775218F6D20900A84455 /* GIRIconTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,11 +139,6 @@
 				CLASSPREFIX = ISH;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Yosuke Ishikawa";
-				TargetAttributes = {
-					7FBE775118F6D20900A84455 = {
-						TestTargetID = 7FBE773618F6D20900A84455;
-					};
-				};
 			};
 			buildConfigurationList = 7FBE773218F6D20900A84455 /* Build configuration list for PBXProject "GIRIcon" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -210,7 +153,6 @@
 			projectRoot = "";
 			targets = (
 				7FBE773618F6D20900A84455 /* GIRIcon */,
-				7FBE775118F6D20900A84455 /* GIRIconTests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,14 +167,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FBE775018F6D20900A84455 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FBE775E18F6D20900A84455 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -240,42 +174,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FBE776E18F6D8D400A84455 /* ISHArcView.m in Sources */,
 				7FBE774718F6D20900A84455 /* main.m in Sources */,
+				7FBE776B18F6D22100A84455 /* ISHView.m in Sources */,
 				7FBE774B18F6D20900A84455 /* ISHAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7FBE774E18F6D20900A84455 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FBE776018F6D20900A84455 /* GIRIconTests.m in Sources */,
+				7FFAA74818F6DAA300ED462F /* ISHPinView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7FBE775818F6D20900A84455 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7FBE773618F6D20900A84455 /* GIRIcon */;
-			targetProxy = 7FBE775718F6D20900A84455 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7FBE774318F6D20900A84455 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7FBE774418F6D20900A84455 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7FBE775C18F6D20900A84455 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7FBE775D18F6D20900A84455 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -381,46 +294,6 @@
 			};
 			name = Release;
 		};
-		7FBE776718F6D20900A84455 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GIRIcon.app/GIRIcon";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GIRIcon/GIRIcon-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "GIRIconTests/GIRIconTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		7FBE776818F6D20900A84455 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GIRIcon.app/GIRIcon";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GIRIcon/GIRIcon-Prefix.pch";
-				INFOPLIST_FILE = "GIRIconTests/GIRIconTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -440,14 +313,7 @@
 				7FBE776518F6D20900A84455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		7FBE776618F6D20900A84455 /* Build configuration list for PBXNativeTarget "GIRIconTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7FBE776718F6D20900A84455 /* Debug */,
-				7FBE776818F6D20900A84455 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
