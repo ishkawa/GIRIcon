@@ -34,8 +34,27 @@
         
         self.layer.masksToBounds = YES;
         self.layer.cornerRadius = 112.f;
+        
+        [self save];
     }
     return self;
+}
+
+- (void)save
+{
+    UIGraphicsBeginImageContextWithOptions(self.frame.size, NO, 0.f);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    [self.layer renderInContext:context];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths firstObject];
+    NSString *path = [documentsDirectory stringByAppendingPathComponent:@"icon.png"];
+    NSData *data = UIImagePNGRepresentation(image);
+    [data writeToFile:path atomically:YES];
+    
+    NSLog(@"saved: %@", path);
 }
 
 @end
