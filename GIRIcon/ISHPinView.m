@@ -20,14 +20,14 @@
 
 - (UIBezierPath *)path
 {
-    CGPoint origin = CGPointMake(self.center.x, self.center.y + 61.f);
-    CGFloat width = 35.f;
+    CGPoint origin = CGPointMake(self.center.x, self.center.y + 66.f);
+    CGFloat width = 40.f;
     CGFloat height = 125.f;
     
     UIBezierPath *path = [[UIBezierPath alloc] init];
     [path moveToPoint:origin];
     [path addLineToPoint:CGPointMake(origin.x + width, origin.y + height)];
-    [path addLineToPoint:CGPointMake(origin.x,         origin.y + height * 0.8f)];
+    [path addLineToPoint:CGPointMake(origin.x,         origin.y + height * 0.75f)];
     [path addLineToPoint:CGPointMake(origin.x - width, origin.y + height)];
     [path addLineToPoint:origin];
     

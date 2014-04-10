@@ -22,13 +22,13 @@
 
 - (UIBezierPath *)path
 {
-    CGPoint center = CGPointMake(self.center.x, self.center.y + 86.f);
+    CGPoint center = CGPointMake(self.center.x, self.center.y + 96.f);
     CGFloat interval = 75.f;
     CGFloat arcRadius = 250.f;
     
     UIBezierPath *path = [[UIBezierPath alloc] init];
     
-    while (arcRadius > interval * 1.f) {
+    while (arcRadius > interval) {
         [self addArcToPath:path center:center radius:arcRadius];
         arcRadius -= interval;
     }
